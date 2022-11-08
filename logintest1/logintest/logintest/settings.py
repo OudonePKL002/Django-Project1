@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'logintest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'logintest1',
         'USER': 'root',
         'PASSWORD': ''
